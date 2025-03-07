@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+button {
+    margin: 5px;
+}
+
+/*Unordered list*/
+ul {
+    list-style: none; /*Removes bullet point from list*/
+    padding: 0;
+}
+
+/*A table*/
+li {
+    display: flex; /*Makes list items a flex container*/
+    justify-content: space-between;
+    align-items: center; /* Ensures text and buttons align vertically */
+    margin: 5px 0;
+    padding: 5px;
+    border-bottom: 1px solid #ddd;
+}
+
+/*Button container to group buttons together*/
+.button-group {
+    display: flex;
+    gap: 100px; /* Adds spacing between buttons */
+}
+
+/*Button styling but different then the other one*/
+button {
+    padding: 5px 10px;
+    border: none; /* Removes the default border */
+    background-color: #007bff;
+    color: white; /* Changes the colour of the text*/
+    cursor: pointer; /* Changes the cursor to a pointer when over the button*/
+    border-radius: 5px;
+}
+
+/*What happens when your mouse is over the button*/
+button:hover {
+    background-color: #0056b3;
+}
