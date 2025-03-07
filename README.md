@@ -4,7 +4,7 @@ This is a Project made using Node.js, MySQL, HTML, CSS and JavaScript to create 
 
 ## Description
 
-In this was a project to learn Node.js and work on my skills with SQL. It is a database project that stores different tasks. Users can add tasks, remove tasks and toggle tasks as completed!
+In this was a project to learn Node.js and work on my skills with SQL. It is a database project that stores different tasks. Users can add tasks, remove tasks and toggle tasks as completed! This is a Full Stack project that uses various frontend and backend techniques.
 
 ### Dependencies
 
